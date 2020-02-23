@@ -26,5 +26,17 @@
   "dependencies": {
     "electron-simple-updater": "^2.0.6",
     "yarn": "^1.22.0"
+  },
+
+  "electronBuilder": {
+    "build": {
+      "productName": "Node App",
+      "appId": "my.id"
+    },
+    "directories": {
+      "output": "releases",
+      "app":"releases"
+    }
   }
+
 }

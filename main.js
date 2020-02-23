@@ -2,7 +2,7 @@ const {app, BrowserWindow} = require('electron');
 const path                 = require('path');
 
 const updater = require('electron-simple-updater');
-updater.init('https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/updates.json');
+updater.init('https://github.com/pecollinni7/spellserver/blob/master/updates/updates.json');
 
 
 function createWindow()
