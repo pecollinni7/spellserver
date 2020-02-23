@@ -22,7 +22,7 @@
     "electron": "^8.0.1",
     "electron-builder": "^22.3.2"
   },
-
+  
   "dependencies": {
     "electron-simple-updater": "^2.0.6",
     "yarn": "^1.22.0"
